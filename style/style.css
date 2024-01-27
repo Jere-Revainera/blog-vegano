@@ -5,10 +5,16 @@
 }
 
 header {
-    background-color: #94A684;
+    background-color: #94A684 ;
     display: flex;
 }
 
+@media screen and (min-width: 501px) {
+  header .dropdown-menu {
+   display: none;
+  }
+  
+}
  header img {
     margin-top: 25px;
     width: 150px;
@@ -182,3 +188,4 @@ background-color: #AEC3AE;
 .container-form .btn-enviar:hover{
   background: #94A684;
 }
+
