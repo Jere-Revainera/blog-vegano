@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  background-color: #94A684;
+  display: flex;
+}
+header img {
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
+}
+header .dropdown-center {
+  display: none;
+}
+header h1 {
+  display: none;
+}
+
+header .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #94A684;
+  position: fixed;
+  top: 0;
+  right: 1px;
+  width: 100%;
+}
+header .nav .nav-item {
+  float: inline-end;
+  margin-left: 20px;
+}
+header .nav .nav-link {
+  color: black;
+}
+
+header .nav .nav-link:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  header .dropdown-center {
+    display: block;
+    background-color: #94A684;
+    top: 0;
+    right: 1px;
+  }
+  header .dropdown-center ul {
+    background-color: #94A684;
+  }
+  header .dropdown-center .btn {
+    background-color: #94A684;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .nav {
+    display: none;
+  }
+}
+main h2 {
+  color: #94A684;
+  border-bottom: 2px solid #94A684;
+  text-align: center;
+  font-size: 2em;
+}
+
+main #sobre-mi p {
+  text-align: center;
+  margin: 2em;
+}
+
+main #beneficios #accordionExample .accordion-item .accordion-header .accordion-button {
+  background-color: #94A684;
+}
+
+main #beneficios #accordionExample .accordion-item .accordion-header:hover {
+  background-color: #94A684;
+}
+
+main #contactanos form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+main #contactanos form .feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #94A684;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+main #contactanos form .feedback-input:focus {
+  border: 2px solid #5d815d;
+}
+
+main #contactanos form .feedback-input textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type=submit] {
+  width: 100%;
+  background: #94A684;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type=submit]:hover {
+  background: #5d815d;
+}
+
+/*# sourceMappingURL=main.css.map */
